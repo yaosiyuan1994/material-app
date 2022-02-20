@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fff;
+}
+.box {
+  width: 365px;
+  height: 100%;
+  margin: 92px auto;
+  /* background: #999; */
+}
+.box-title {
+  width: 370px;
+}
+.signinText {
+  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 28px;
+}
+/* .box-userEmail .box-password {
+  width: 300;
+  height: px;
+} */
+
+/* .box-userEmail input {
+  width: 359px;
+  max-width: 100%;
+  height: 50px;
+  margin-bottom: 21px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  padding-left: 10px;
+}
+.box-password input {
+  width: 359px;
+  height: 50px;
+  margin-bottom: 21px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  padding-left: 10px;
+} */
+/* .box-checkbox {
+  height: 38px;
+  width: 200px;
+  border: 1px solid;
+} */
+.box-checkbox {
+  padding-bottom: 53px;
+  position: relative;
+}
+.box-checkbox input {
+  cursor: pointer;
+  height: 23px;
+  width: 29px;
+  position: absolute;
+}
+.checkText {
+  cursor: pointer;
+  position: absolute;
+  left: 39px;
+}
+/* .box-button {
+  width: 300px;
+  height: 30px;
+} */
+.box-button button {
+  /* border: 1px solid; */
+  /* padding: 8px 124px; */
+  border-radius: 5px;
+  width: 359px;
+  height: 38px;
+  margin-left: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.log-in span {
+  color: #fff;
+}
+.box-point {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 0.875rem;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.box-forgot a {
+  color: #1976d2;
+}
+.box-account a {
+  color: #1976d2;
+}

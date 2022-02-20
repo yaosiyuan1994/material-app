@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Inner from "./component/Inner";
 import Header from "./component/Header";
+import Main from "./component/Main";
 import Footer from "./component/Footer";
 import "../src/App.css";
 
@@ -9,7 +9,7 @@ export default class App extends Component {
     return (
       <div className="box">
         <Header />
-        <Inner />
+        <Main />
         <Footer />
       </div>
     );

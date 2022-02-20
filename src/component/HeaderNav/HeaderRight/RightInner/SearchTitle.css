@@ -1,0 +1,16 @@
+.searchText .searchShow {
+  -webkit-animation: slide-in 1s forwards;
+  animation: slide-in 1s forwards;
+}
+
+@-webkit-keyframes salide-in {
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes salide-in {
+  100% {
+    right: 0;
+  }
+}

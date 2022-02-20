@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import Inner from "./component/Inner";
 import Header from "./component/Header";
+import Nav from "./component/Nav";
 import Footer from "./component/Footer";
+import ClickImg from "./component/parts/ClickImg";
 import "../src/App.css";
 
 export default class App extends Component {
@@ -9,8 +10,9 @@ export default class App extends Component {
     return (
       <div className="box">
         <Header />
-        <Inner />
+        <Nav />
         <Footer />
+        <ClickImg />
       </div>
     );
   }
